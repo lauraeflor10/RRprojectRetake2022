@@ -165,25 +165,25 @@ X_train, X_test, y_train, y_test = train_test_split(X, y, test_size = 0.20, rand
 # In[112]:
 
 
-X_train.shape
+# X_train.shape
 
 
 # In[113]:
 
 
-X_test.shape
+# X_test.shape
 
 
 # In[114]:
 
 
-y_train.shape
+# y_train.shape
 
 
 # In[115]:
 
 
-y_test.shape
+# y_test.shape
 
 
 # ## FIRST TRIAL SVM ALGORITHMS
@@ -218,7 +218,7 @@ cm = confusion_matrix(y_test, y_predict)
 # In[118]:
 
 
-sns.heatmap(cm, annot=True)
+# sns.heatmap(cm, annot=True)
 
 
 # In[119]:
