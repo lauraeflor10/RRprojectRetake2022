@@ -83,21 +83,21 @@ print(data['irradiat'])
 # Check the data dimension in the dataset
 # 286 rows with 10 columns
 
-data.shape
+# data.shape
 
 
 # In[60]:
 
 
 # Get the first 5 data on dataset
-data.head()
+# data.head()
 
 
 # In[61]:
 
 
 # Get the last 5 data on dataset
-data.tail()
+# data.tail()
 
 
 # # DATA VISUALIZATION
@@ -112,7 +112,7 @@ data.tail()
 # Orange color = benign
 # Blue color = malignant
 
-sns.pairplot(data, hue = 'irradiat', vars = ['deg-malig', 'node-caps'])
+# sns.pairplot(data, hue = 'irradiat', vars = ['deg-malig', 'node-caps'])
 
 
 # In[107]:
@@ -121,7 +121,7 @@ sns.pairplot(data, hue = 'irradiat', vars = ['deg-malig', 'node-caps'])
 # We get the data comparison from the target, for which one can be categorized in 'Malignant' or 'Benign'.
 # And here we can see that the patient with 'Benign' status is way more high than 'Malignant'
 
-sns.countplot(data['irradiat'], label = "Count") 
+# sns.countplot(data['irradiat'], label = "Count") 
 
 
 # In[108]:
@@ -130,8 +130,8 @@ sns.countplot(data['irradiat'], label = "Count")
 # Let's check the correlation between the variables 
 # Strong correlation between the mean radius and mean perimeter, mean area and mean primeter and get the heatmap
 
-plt.figure(figsize=(20,10)) 
-sns.heatmap(data.corr(), annot=True) 
+# plt.figure(figsize=(20,10)) 
+# sns.heatmap(data.corr(), annot=True) 
 
 
 # # FIND THE SOLUTION IN THE TRAINING MODEL (1)
